@@ -133,7 +133,7 @@ def status(*_):
         )
     if yellow_routes:
         status_messages.append(
-            ":fire_engine: {} yellow :fire_engine: {}".format(
+            ":warning: {} yellow :warning: {}".format(
                 len(yellow_routes),
                 _status_str(yellow_routes),
             )
